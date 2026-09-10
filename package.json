@@ -5,17 +5,18 @@
   "type": "module",
   "main": "app.js",
   "scripts": {
-    "dev": "node --watch src/index.js",
-    "start": "node src/index.js"
+    "dev": "node --watch app.js",
+    "start": "node app.js"
   },
   "dependencies": {
+    "zod": "^4.4.3",
     "cors": "^2.8.5",
+    "qrcode": "^1.5.4",
+    "mysql2": "^3.22.5",
     "dotenv": "^16.4.5",
-    "drizzle-orm": "0.45.2",
     "express": "^4.21.0",
-    "mysql2": "^3.22.5"
-  },
-  "devDependencies": {
-    "drizzle-kit": "0.31.10"
+    "bcryptjs": "^3.0.3",
+    "jsonwebtoken": "^9.0.3",
+    "cookie-parser": "^1.4.7"
   }
 }

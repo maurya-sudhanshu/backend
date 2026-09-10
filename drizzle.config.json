@@ -1,7 +1,0 @@
-{
-  "dialect": "mysql",
-  "schema": "./src/db/schema.js",
-  "dbCredentials": {
-    "url": "mysql://root:@127.0.0.1:3306/app_db"
-  }
-}
