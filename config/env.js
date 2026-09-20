@@ -6,5 +6,6 @@ export const env = {
   STRIPE_SECRET_KEY: "sk_test_placeholder",
   STRIPE_WEBHOOK_SECRET: "whsec_placeholder",
   FRONTEND_URL: "https://autorevio.com/",
+  // FRONTEND_URL: "http://localhost:3002/",
   NODE_ENV: "production",
 };
